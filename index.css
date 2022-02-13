@@ -1,5 +1,5 @@
 body{
-  background-color: pink;
+  background-color: red;
 }
 #name{
   text-align: center;
@@ -128,7 +128,7 @@ animation-name:love;
  }
  
  
-@media (max-width:900px){
+@media (max-width:1000px){
   .boxx {
     width:100%;
     justify-content:right;
