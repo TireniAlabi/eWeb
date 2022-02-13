@@ -1,5 +1,5 @@
 body{
-  background-color: red;
+  background-color: pink;
 }
 #name{
   text-align: center;
@@ -128,11 +128,10 @@ animation-name:love;
  }
  
  
-@media (max-width:1000px){
+@media (max-width:700px){
   .boxx {
     width:100%;
     justify-content:right;
-background-color: yellow;
   }
   .box2 {
     width: 32%;
@@ -148,8 +147,10 @@ background-color: yellow;
       @keyframes love {
         100% {
           width:35%;
-          
-          
+
         }
       }
+img{
+width:60px
+height:60px
 }
