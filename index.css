@@ -1,5 +1,3 @@
-
-
 body{
   background-color: pink;
 }
@@ -76,6 +74,8 @@ figcaption{
     width:90%;
     display: flex;
     justify-content: space-evenly;
+  
+
   }
   .box2 {
     background: rgb(228, 124, 228);
@@ -127,6 +127,28 @@ animation-name:love;
    text-decoration: none;
  }
  
-
-
-
+ 
+@media (max-width:700px){
+  .boxx {
+    width:100%;
+    justify-content:right;
+  }
+  .box2 {
+    width: 32%;
+    margin: 5px;
+    border: 5px solid black;
+  }
+  .box2:hover{
+    border:5px solid white;
+    animation-name:love;
+        animation-duration:1s;
+    
+      }
+      @keyframes love {
+        100% {
+          width:35%;
+          
+          
+        }
+      }
+}
