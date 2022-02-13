@@ -1,5 +1,5 @@
 body{
-  background-color: pink;
+  background-color: blue;
 }
 #name{
   text-align: center;
@@ -151,6 +151,9 @@ animation-name:love;
         }
       }
 img{
-width:60px
-height:60px
+width:50px;
+height:50px;
+}
+.first{
+width:100%;
 }
