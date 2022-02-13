@@ -128,7 +128,7 @@ animation-name:love;
  }
  
  
-@media (max-width:700px){
+@media (max-width:500px){
   .boxx {
     width:100%;
     justify-content:right;
